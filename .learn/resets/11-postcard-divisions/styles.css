@@ -1,0 +1,38 @@
+* {
+  border: 1px dashed red;
+  min-height: 10px;
+}
+body {
+  background: black;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.postcard img {
+  width: 75px;
+  height: 75px;
+}
+.mainDiv {
+  background-color: white;
+  color: black;
+}
+.postcard {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+.postcard div {
+  width: 100%;
+}
+.postcard,
+.postcardBtn button {
+  text-transform: capitalize;
+}
